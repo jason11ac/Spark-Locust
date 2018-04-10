@@ -1,0 +1,24 @@
+[2018-03-17 03:56:15,868] 08adfe39a8a9/INFO/locust.main: Starting Locust 0.8.1
+[2018-03-17 03:56:15,869] 08adfe39a8a9/INFO/locust.runners: Hatching and swarming 100 clients at the rate 100 clients/s...
+[2018-03-17 03:56:16,978] 08adfe39a8a9/INFO/locust.runners: All locusts hatched: MyLocust: 100
+[2018-03-17 03:56:16,978] 08adfe39a8a9/INFO/locust.runners: Resetting stats
+
+[2018-03-17 03:57:03,165] 08adfe39a8a9/INFO/locust.runners: All locusts dead
+
+[2018-03-17 03:57:03,165] 08adfe39a8a9/INFO/locust.main: Shutting down (exit code 0), bye.
+ Name                                                          # reqs      # fails     Avg     Min     Max  |  Median   req/s
+--------------------------------------------------------------------------------------------------------------------------------------------
+ PUT /api/cs144                                                   324     0(0.00%)      20       5     438  |       9    7.30
+ GET /blog/cs144                                                 2704     0(0.00%)      19       6     657  |      12   57.90
+ GET /login?username=cs144&password=password&redirect=/blog/cs144      71     0(0.00%)    1174     729    1503  |    1200    0.00
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Total                                                           3099     0(0.00%)                                      65.20
+
+Percentage of the requests completed within given times
+ Name                                                           # reqs    50%    66%    75%    80%    90%    95%    98%    99%   100%
+--------------------------------------------------------------------------------------------------------------------------------------------
+ PUT /api/cs144                                                    324      9     10     12     13     17     23    240    420    438
+ GET /blog/cs144                                                  2704     12     13     14     14     17     22    140    290    657
+ GET /login?username=cs144&password=password&redirect=/blog/cs144       71   1200   1300   1300   1300   1400   1400   1500   1500   1503
+--------------------------------------------------------------------------------------------------------------------------------------------
+
