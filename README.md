@@ -1,2 +1,2 @@
 # Spark-Locust1
-Web benchmarks for my web projects using locust. Spark/Scala program 
+Web benchmarks for my web projects using locust. 
